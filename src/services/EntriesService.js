@@ -8,23 +8,23 @@ export class EntriesService {
     return axios.get(dataURL)
   }
 
-  static getEntry(entryAPI) {
-    let dataURL = `${this.serverURL}/entries/${entryAPI}`
+  static getEntry(id) {
+    let dataURL = `${this.serverURL}/entries/${id}`
     return axios.get(dataURL)
   }
 
-  static createContact(entry) {
+  static createEntry(entry) {
     let dataURL = `${this.serverURL}/entries/`
     return axios.post(dataURL, entry)
   }
 
-  static updateContact(entry, entryAPI) {
-    let dataURL = `${this.serverURL}/entries/${entryAPI}`
+  static updateEntry(entry, id) {
+    let dataURL = `${this.serverURL}/entries/${id}`
     return axios.put(dataURL, entry)
   }
 
-  static deleteContact(entryAPI) {
-    let dataURL = `${this.serverURL}/entries/${entryAPI}`
+  static deleteEntry(id) {
+    let dataURL = `${this.serverURL}/entries/${id}`
     return axios.delete(dataURL)
   }
 }
