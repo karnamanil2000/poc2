@@ -11,7 +11,10 @@ export default new Vuex.Store({
   getters: {
     getEntriesState (state) {
       return state.entriesState.entriesList
-    }
+    },
+    // createEntryState (state) {
+    //   return state.entriesState.entriesList
+    // }
   },
   mutations: {
   },

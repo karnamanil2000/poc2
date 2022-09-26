@@ -14,25 +14,25 @@
         <div class="col-md-4">
           <form @submit.prevent="submitCreate()">
             <div class="mb-2">
-              <input required v-model="entries.API" type="text" class="form-control" placeholder="API">
+              <input required v-model="entry.API" type="text" class="form-control" placeholder="API">
             </div>
             <div class="mb-2">
-              <input required v-model="entries.Description" type="text" class="form-control" placeholder="Description">
+              <input required v-model="entry.Description" type="text" class="form-control" placeholder="Description">
             </div>
             <div class="mb-2">
-              <input required v-model="entries.Auth" type="text" class="form-control" placeholder="Auth">
+              <input required v-model="entry.Auth" type="text" class="form-control" placeholder="Auth">
             </div>
             <div class="mb-2">
-              <input required v-model="entries.HTTPS" type="text" class="form-control" placeholder="HTTPS">
+              <input required v-model="entry.HTTPS" type="text" class="form-control" placeholder="HTTPS">
             </div>
             <div class="mb-2">
-              <input required v-model="entries.Cors" type="text" class="form-control" placeholder="Cors">
+              <input required v-model="entry.Cors" type="text" class="form-control" placeholder="Cors">
             </div>
             <div class="mb-2">
-              <input required v-model="entries.Link" type="text" class="form-control" placeholder="Link">
+              <input required v-model="entry.Link" type="text" class="form-control" placeholder="Link">
             </div>
             <div class="mb-2">
-              <input required v-model="entries.Category" type="text" class="form-control" placeholder="Category">
+              <input required v-model="entry.Category" type="text" class="form-control" placeholder="Category">
             </div>
             <div class="mb-2">
               <input type="submit" class="btn btn-success m-flex" value="Create">
@@ -42,18 +42,18 @@
         </div>
       </div>
     </div>
-    <pre>{{entries}}</pre>
   </div>
 </template>
   
 <script>
-import { EntriesService } from '@/services/EntriesService';
+// import { EntriesService } from '@/services/EntriesService';
+// import { mapGetters } from 'vuex';
 
 export default {
   name: 'AddContact',
   data() {
     return {
-      entries: {
+      entry: {
         API: '',
         Description: '',
         Auth: '',
@@ -63,6 +63,11 @@ export default {
         Category: ''
       }
     }
+  },
+  computed: {
+    // ...mapGetters({
+    //   entriesState: "createEntryState"
+    // })
   },
   // async created() {
   //   try {
@@ -75,18 +80,21 @@ export default {
   // },
   methods: {
     async submitCreate() {
-      try {
-        let response = await EntriesService.createEntry(this.entries)
-        if (response) {
-          return this.$router.push('/')
-        }
-        else {
-          return this.$router.push('/entries/add')
-        }
-      }
-      catch (error) {
-        console.log(error)
-      }
+      this.$store.state.entriesState.entriesList.entry = this.entry;
+      this.$store.dispatch("entriesModule/createEntry")
+      // try {
+      //   let response = await EntriesService.createEntry(this.entry)
+      //   console.log("response in add entries", response)
+      //   if (response) {
+      //     return this.$router.push('/')
+      //   }
+      //   else {
+      //     return this.$router.push('/entries/add')
+      //   }
+      // }
+      // catch (error) {
+      //   console.log(error)
+      // }
     },
     back() {
       this.$router.go(-1)

@@ -221,27 +221,327 @@
       "Category": "Animals"
     },
     {
-      "API": "Open Government, Lithuania",
-      "Description": "Lithuania Government Open Data",
-      "Auth": "key 1",
-      "HTTPS": "true",
+      "id": "W6BNdWh",
+      "API": "RescueGroups",
+      "Description": "Adoption",
+      "Auth": "",
+      "HTTPS": true,
       "Cors": "unknown",
-      "Link": "https://data.gov.lt/public/api/1",
-      "Category": "Government",
-      "id": "BtXQSsG"
+      "Link": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
+      "Category": "Animals"
     },
     {
-      "API": "Anil",
-      "Description": "Description",
+      "id": "X6BNdWh",
+      "API": "Shibe.Online",
+      "Description": "Random pictures of Shiba Inu, cats or birds",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "http://shibe.online/",
+      "Category": "Animals"
+    },
+    {
+      "id": "Y6BNdWh",
+      "API": "The Dog",
+      "Description": "A public service all about Dogs, free to use when making your fancy new App, Website or Service",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "no",
+      "Link": "https://thedogapi.com/",
+      "Category": "Animals"
+    },
+    {
+      "id": "Z6BNdWh",
+      "API": "xeno-canto",
+      "Description": "Bird recordings",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://xeno-canto.org/explore/api",
+      "Category": "Animals"
+    },
+    {
+      "id": "a6BNdWh",
+      "API": "Zoo Animals",
+      "Description": "Facts and pictures of zoo animals",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://zoo-animal-api.herokuapp.com/",
+      "Category": "Animals"
+    },
+    {
+      "id": "b6BNdWh",
+      "API": "AniAPI",
+      "Description": "Anime discovery, streaming & syncing with trackers",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://aniapi.com/docs/",
+      "Category": "Anime"
+    },
+    {
+      "id": "c6BNdWh",
+      "API": "AniDB",
+      "Description": "Anime Database",
+      "Auth": "apiKey",
+      "HTTPS": false,
+      "Cors": "unknown",
+      "Link": "https://wiki.anidb.net/HTTP_API_Definition",
+      "Category": "Anime"
+    },
+    {
+      "id": "d6BNdWh",
+      "API": "AniList",
+      "Description": "Anime discovery & tracking",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://github.com/AniList/ApiV2-GraphQL-Docs",
+      "Category": "Anime"
+    },
+    {
+      "id": "e6BNdWh",
+      "API": "AnimeChan",
+      "Description": "Anime quotes (over 10k+)",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "no",
+      "Link": "https://github.com/RocktimSaikia/anime-chan",
+      "Category": "Anime"
+    },
+    {
+      "id": "f6BNdWh",
+      "API": "AnimeFacts",
+      "Description": "Anime Facts (over 100+)",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://chandan-02.github.io/anime-facts-rest-api/",
+      "Category": "Anime"
+    },
+    {
+      "id": "g6BNdWh",
+      "API": "AnimeNewsNetwork",
+      "Description": "Anime industry news",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://www.animenewsnetwork.com/encyclopedia/api.php",
+      "Category": "Anime"
+    },
+    {
+      "id": "h6BNdWh",
+      "API": "Catboy",
+      "Description": "Neko images, funny GIFs & more",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://catboys.com/api",
+      "Category": "Anime"
+    },
+    {
+      "id": "i6BNdWh",
+      "API": "Danbooru Anime",
+      "Description": "Thousands of anime artist database to find good anime art",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://danbooru.donmai.us/wiki_pages/help:api",
+      "Category": "Anime"
+    },
+    {
+      "id": "j6BNdWh",
+      "API": "Jikan",
+      "Description": "Unofficial MyAnimeList API",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://jikan.moe",
+      "Category": "Anime"
+    },
+    {
+      "id": "k6BNdWh",
+      "API": "Kitsu",
+      "Description": "Anime discovery platform",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://kitsu.docs.apiary.io/",
+      "Category": "Anime"
+    },
+    {
+      "id": "l6BNdWh",
+      "API": "MangaDex",
+      "Description": "Manga Database and Community",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://api.mangadex.org/docs.html",
+      "Category": "Anime"
+    },
+    {
+      "id": "m6BNdWh",
+      "API": "Mangapi",
+      "Description": "Translate manga pages from one language to another",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/",
+      "Category": "Anime"
+    },
+    {
+      "id": "n6BNdWh",
+      "API": "MyAnimeList",
+      "Description": "Anime and Manga Database and Community",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://myanimelist.net/clubs.php?cid=13727",
+      "Category": "Anime"
+    },
+    {
+      "id": "o6BNdWh",
+      "API": "NekosBest",
+      "Description": "Neko Images & Anime roleplaying GIFs",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://docs.nekos.best",
+      "Category": "Anime"
+    },
+    {
+      "id": "p6BNdWh",
+      "API": "Shikimori",
+      "Description": "Anime discovery, tracking, forum, rates",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://shikimori.one/api/doc",
+      "Category": "Anime"
+    },
+    {
+      "id": "q6BNdWh",
+      "API": "Studio Ghibli",
+      "Description": "Resources from Studio Ghibli films",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://ghibliapi.herokuapp.com",
+      "Category": "Anime"
+    },
+    {
+      "id": "r6BNdWh",
+      "API": "Trace Moe",
+      "Description": "A useful tool to get the exact scene of an anime from a screenshot",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "no",
+      "Link": "https://soruly.github.io/trace.moe-api/#/",
+      "Category": "Anime"
+    },
+    {
+      "id": "s6BNdWh",
+      "API": "Waifu.im",
+      "Description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://waifu.im/docs",
+      "Category": "Anime"
+    },
+    {
+      "id": "t6BNdWh",
+      "API": "Waifu.pics",
+      "Description": "Image sharing platform for anime images",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "no",
+      "Link": "https://waifu.pics/docs",
+      "Category": "Anime"
+    },
+    {
+      "id": "u6BNdWh",
+      "API": "AbuseIPDB",
+      "Description": "IP/domain/URL reputation",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://docs.abuseipdb.com/",
+      "Category": "Anti-Malware"
+    },
+    {
+      "id": "v6BNdWh",
+      "API": "AlienVault Open Threat Exchange (OTX)",
+      "Description": "IP/domain/URL reputation",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://otx.alienvault.com/api",
+      "Category": "Anti-Malware"
+    },
+    {
+      "id": "w6BNdWh",
+      "API": "CAPEsandbox",
+      "Description": "Malware execution and analysis",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://capev2.readthedocs.io/en/latest/usage/api.html",
+      "Category": "Anti-Malware"
+    },
+    {
+      "id": "x6BNdWh",
+      "API": "Google Safe Browsing",
+      "Description": "Google Link/Domain Flagging",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.google.com/safe-browsing/",
+      "Category": "Anti-Malware"
+    },
+    {
+      "id": "y6BNdWh",
+      "API": "MalDatabase",
+      "Description": "Provide malware datasets and threat intelligence feeds",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://maldatabase.com/api-doc.html",
+      "Category": "Anti-Malware"
+    },
+    {
+      "id": "z6BNdWh",
+      "API": "MalShare",
+      "Description": "Malware Archive / file sourcing",
+      "Auth": "apiKey",
+      "HTTPS": true,
+      "Cors": "no",
+      "Link": "https://malshare.com/doc.php",
+      "Category": "Anti-Malware"
+    },
+    {
+      "API": "Rescue Operation",
+      "Description": "Flood rescue team",
+      "Auth": "OAuth",
+      "HTTPS": "true",
+      "Cors": "red tape",
+      "Link": "NA",
+      "Category": "Animals",
+      "id": "-iw17fN"
+    },
+    {
+      "API": "Disaster Rescue",
+      "Description": "NDRD sub department ",
       "Auth": "apiKey",
       "HTTPS": "true",
-      "Cors": "lexumberg",
-      "Link": "https",
-      "Category": "sdsdsad",
-      "id": "U93QJb7"
+      "Cors": "Rescue team",
+      "Link": "NA",
+      "Category": "Human Resource",
+      "id": "ydB32zI"
     }
   ],
   "count": {
-    "count": 1425
+    "count": 52
   }
 }

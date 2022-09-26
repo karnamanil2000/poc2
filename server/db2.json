@@ -41,7 +41,7 @@
       "Category": "Animals"
     },
     {
-      "id": "F6BNdWh",
+      "id": "E6BNdWh",
       "API": "Cats",
       "Description": "Pictures of cats from Tumblr",
       "Auth": "apiKey",
@@ -221,6 +221,7 @@
       "Category": "Animals"
     },
     {
+      "id": "W6BNdWh",
       "API": "RescueGroups",
       "Description": "Adoption",
       "Auth": "",
@@ -230,6 +231,7 @@
       "Category": "Animals"
     },
     {
+      "id": "X6BNdWh",
       "API": "Shibe.Online",
       "Description": "Random pictures of Shiba Inu, cats or birds",
       "Auth": "",
@@ -239,6 +241,7 @@
       "Category": "Animals"
     },
     {
+      "id": "Y6BNdWh",
       "API": "The Dog",
       "Description": "A public service all about Dogs, free to use when making your fancy new App, Website or Service",
       "Auth": "apiKey",
@@ -248,6 +251,7 @@
       "Category": "Animals"
     },
     {
+      "id": "Z6BNdWh",
       "API": "xeno-canto",
       "Description": "Bird recordings",
       "Auth": "",
@@ -257,6 +261,7 @@
       "Category": "Animals"
     },
     {
+      "id": "a6BNdWh",
       "API": "Zoo Animals",
       "Description": "Facts and pictures of zoo animals",
       "Auth": "",
@@ -266,6 +271,7 @@
       "Category": "Animals"
     },
     {
+      "id": "b6BNdWh",
       "API": "AniAPI",
       "Description": "Anime discovery, streaming \u0026 syncing with trackers",
       "Auth": "OAuth",
@@ -275,6 +281,7 @@
       "Category": "Anime"
     },
     {
+      "id": "c6BNdWh",
       "API": "AniDB",
       "Description": "Anime Database",
       "Auth": "apiKey",
@@ -284,6 +291,7 @@
       "Category": "Anime"
     },
     {
+      "id": "d6BNdWh",
       "API": "AniList",
       "Description": "Anime discovery \u0026 tracking",
       "Auth": "OAuth",
@@ -293,6 +301,7 @@
       "Category": "Anime"
     },
     {
+      "id": "e6BNdWh",
       "API": "AnimeChan",
       "Description": "Anime quotes (over 10k+)",
       "Auth": "",
@@ -302,6 +311,7 @@
       "Category": "Anime"
     },
     {
+      "id": "f6BNdWh",
       "API": "AnimeFacts",
       "Description": "Anime Facts (over 100+)",
       "Auth": "",
@@ -311,6 +321,7 @@
       "Category": "Anime"
     },
     {
+      "id": "g6BNdWh",
       "API": "AnimeNewsNetwork",
       "Description": "Anime industry news",
       "Auth": "",
@@ -320,6 +331,7 @@
       "Category": "Anime"
     },
     {
+      "id": "h6BNdWh",
       "API": "Catboy",
       "Description": "Neko images, funny GIFs \u0026 more",
       "Auth": "",
@@ -329,6 +341,7 @@
       "Category": "Anime"
     },
     {
+      "id": "i6BNdWh",
       "API": "Danbooru Anime",
       "Description": "Thousands of anime artist database to find good anime art",
       "Auth": "apiKey",
@@ -338,6 +351,7 @@
       "Category": "Anime"
     },
     {
+      "id": "j6BNdWh",
       "API": "Jikan",
       "Description": "Unofficial MyAnimeList API",
       "Auth": "",
@@ -347,6 +361,7 @@
       "Category": "Anime"
     },
     {
+      "id": "k6BNdWh",
       "API": "Kitsu",
       "Description": "Anime discovery platform",
       "Auth": "OAuth",
@@ -356,6 +371,7 @@
       "Category": "Anime"
     },
     {
+      "id": "l6BNdWh",
       "API": "MangaDex",
       "Description": "Manga Database and Community",
       "Auth": "apiKey",
@@ -365,6 +381,7 @@
       "Category": "Anime"
     },
     {
+      "id": "m6BNdWh",
       "API": "Mangapi",
       "Description": "Translate manga pages from one language to another",
       "Auth": "apiKey",
@@ -374,6 +391,7 @@
       "Category": "Anime"
     },
     {
+      "id": "n6BNdWh",
       "API": "MyAnimeList",
       "Description": "Anime and Manga Database and Community",
       "Auth": "OAuth",
@@ -383,6 +401,7 @@
       "Category": "Anime"
     },
     {
+      "id": "o6BNdWh",
       "API": "NekosBest",
       "Description": "Neko Images \u0026 Anime roleplaying GIFs",
       "Auth": "",
@@ -392,6 +411,7 @@
       "Category": "Anime"
     },
     {
+      "id": "p6BNdWh",
       "API": "Shikimori",
       "Description": "Anime discovery, tracking, forum, rates",
       "Auth": "OAuth",
@@ -401,6 +421,7 @@
       "Category": "Anime"
     },
     {
+      "id": "q6BNdWh",
       "API": "Studio Ghibli",
       "Description": "Resources from Studio Ghibli films",
       "Auth": "",
@@ -410,6 +431,7 @@
       "Category": "Anime"
     },
     {
+      "id": "r6BNdWh",
       "API": "Trace Moe",
       "Description": "A useful tool to get the exact scene of an anime from a screenshot",
       "Auth": "",
@@ -419,6 +441,7 @@
       "Category": "Anime"
     },
     {
+      "id": "s6BNdWh",
       "API": "Waifu.im",
       "Description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
       "Auth": "",
@@ -428,6 +451,7 @@
       "Category": "Anime"
     },
     {
+      "id": "t6BNdWh",
       "API": "Waifu.pics",
       "Description": "Image sharing platform for anime images",
       "Auth": "",
@@ -437,6 +461,7 @@
       "Category": "Anime"
     },
     {
+      "id": "u6BNdWh",
       "API": "AbuseIPDB",
       "Description": "IP/domain/URL reputation",
       "Auth": "apiKey",
@@ -446,6 +471,7 @@
       "Category": "Anti-Malware"
     },
     {
+      "id": "v6BNdWh",
       "API": "AlienVault Open Threat Exchange (OTX)",
       "Description": "IP/domain/URL reputation",
       "Auth": "apiKey",
@@ -455,6 +481,7 @@
       "Category": "Anti-Malware"
     },
     {
+      "id": "w6BNdWh",
       "API": "CAPEsandbox",
       "Description": "Malware execution and analysis",
       "Auth": "apiKey",
@@ -464,6 +491,7 @@
       "Category": "Anti-Malware"
     },
     {
+      "id": "x6BNdWh",
       "API": "Google Safe Browsing",
       "Description": "Google Link/Domain Flagging",
       "Auth": "apiKey",
@@ -473,6 +501,7 @@
       "Category": "Anti-Malware"
     },
     {
+      "id": "y6BNdWh",
       "API": "MalDatabase",
       "Description": "Provide malware datasets and threat intelligence feeds",
       "Auth": "apiKey",
@@ -482,6 +511,7 @@
       "Category": "Anti-Malware"
     },
     {
+      "id": "z6BNdWh",
       "API": "MalShare",
       "Description": "Malware Archive / file sourcing",
       "Auth": "apiKey",
